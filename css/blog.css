@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Hachi+Maru+Pop&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+*{
+    align-content: center;
+}
+body{
+    background-image: url("../css/blog.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    color:rgba(2, 2, 2, 0.1);
+    
+}
+#heading{
+    align-content: center;
+    text-align: center;
+    margin-top: 15rem;
+    align-self:center;
+}
+#h1{
+    font-family: 'Lobster Two', cursive;
+}
+#h3{
+    font-family: 'Amatic SC', cursive;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
