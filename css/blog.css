@@ -5,6 +5,7 @@
 }
 body{
     background-image: url("../css/blog.jpg");
+    
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -12,20 +13,52 @@ body{
     
 }
 .navbar{
-    color:rgba(2, 2, 2, 0.1);
-    
+    background-color: rgba(0, 0, 0, 0.658)!important;
 }
+
 #heading{
     align-content: center;
     text-align: center;
     margin-top: 15rem;
     align-self:center;
+    border: rgb(247, 248, 248);
+    border-style:groove;
+    background-origin: padding-box;
+    padding: 10px;
+    
 }
 #h1{
     font-family: 'Lobster Two', cursive;
+    font-size: 70px;
+    text-emphasis-color: black;
 }
 #h3{
     font-family: 'Amatic SC', cursive;
     margin-left: 5rem;
-    font-size: 3rem;
+    font-size: 80px;
+}
+#p{
+    color: aliceblue;
+    text-size-adjust: 10rem;
+    
+    
+}
+#digco{
+    margin-top: 17rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 25px;
+}
+#pro{
+    margin-top: 17rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 25px;
+}
+#daily{
+    margin-top: 17rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 25px;
+    
+}
+#foot{
+    background-color: rgba(0, 0, 0, 0.658)!important;
 }
